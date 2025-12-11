@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #0f172a;
+}
+
+/* ========== NAVBAR ========== */
+nav {
+  width: 100%;
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 60px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  color: white;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  font-weight: 700;
+}
+
+.menu a:hover {
+  color: #facc15;
+}
+
+/* ========== HERO SECTION ========== */
+.hero {
+  max-width: 1100px;
+  margin: 80px auto;
+  background: white;
+  padding: 60px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+
+.hero-text h1 {
+  font-size: 42px;
+}
+
+.hero-text span {
+  color: #2563eb;
+}
+
+.hero-text p {
+  margin: 15px 0;
+  color: #475569;
+}
+
+.buttons a {
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: 15px;
+  padding: 12px 26px;
+  background: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: 700;
+}
+
+.buttons a:hover {
+  background: #1d4ed8;
+}
+
+.hero-img img {
+  width: 260px;
+}
+
+/* ========== SECTIONS ========== */
+section {
+  max-width: 1100px;
+  margin: 80px auto;
+  background: white;
+  padding: 60px;
+  border-radius: 30px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+
+h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+/* ========== CONTENT BOX ========== */
+.content-box {
+  border: 2px solid #2563eb;
+  padding: 40px;
+  border-radius: 24px;
+  font-size: 16px;
+  line-height: 1.8;
+  background: #f8fafc;
+}
+
+/* ========== SKILLS ========== */
+.skill-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skill-box p {
+  padding: 14px 30px;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #0f172a, #334155);
+  color: white;
+  font-weight: 700;
+}
+
+/* ========== PROJECTS ========== */
+.project-box {
+  border: 2px solid #2563eb;
+  padding: 40px;
+  border-radius: 25px;
+  margin-bottom: 30px;
+  background: #f1f5f9;
+}
+
+.project-box h3 {
+  font-size: 22px;
+  font-weight: 800;
+  color: #1d4ed8;
+}
+
+.project-box a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 26px;
+  background: #2563eb;
+  color: white;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* ========== FOOTER ========== */
+footer {
+  text-align: center;
+  padding: 25px;
+  color: white;
+  font-size: 14px;
+}
